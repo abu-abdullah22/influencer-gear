@@ -10,10 +10,7 @@
 .container {
     width: 82%;
     max-width: 74rem;
-    margin-left: 7.5rem;
-    margin-right: 8.4375rem;
-    margin-top: 4.0625rem;
-    margin-bottom: 6.25rem;
+    margin: 4rem auto;
 }
 
 /* nav section styles */
@@ -66,9 +63,7 @@
     line-height: 4.375rem;
     /* 134.615% */
     margin-top: 9rem;
-    width: 36rem;
     height: 8.31rem;
-    flex-shrink: 0;
 }
 
 .banner-text p {
@@ -89,14 +84,62 @@
     font-weight: 700;
     border: none;
     width: 12rem;
-    height: 2.75rem;
+    height: 3rem;
 }
 
 .banner-image {
     margin-top: 3.125rem;
-    background-image:url('../images/Circle\ design.svg');
+    margin-bottom: 4.31rem;
+    background-image: url('../images/Circle\ design.svg');
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 475px;
     border: 3px solid #F1E4FF;
+}
+
+/* image container section styles  */
+.image-container img {
+    margin-right: 3.77rem;
+}
+
+
+
+
+@media screen and (max-width: 576px) {
+    .container,{
+        margin-top: 2rem;
+    }
+    .nav-container,
+    .banner-container {
+        flex-direction: column;
+    }
+    .nav-container .nav-title{
+        margin-bottom: 2rem;
+    }
+    .banner-container {
+        text-align: center;
+    }
+    .banner-text h1{
+        margin-bottom: 5rem;
+        margin-top: 3rem;
+    }
+
+    .nav-main ul {
+        margin: 0;
+
+    }
+
+    .image-container {
+        flex-direction: column;
+        /* justify-content: center;
+        align-items: center; */
+        text-align: center;
+    
+    }
+    .image-container img {
+        width: 40vw;
+        margin-bottom: 3rem;
+    }
+
+    
 }
