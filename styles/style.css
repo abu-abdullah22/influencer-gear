@@ -124,7 +124,7 @@
     font-weight: 600;
     line-height: 70px;
     /* 250% */
-    margin-top:;
+    margin-top: ;
 }
 
 .popular-card-container {
@@ -133,6 +133,19 @@
     gap: 1rem;
 }
 
+.popular-button {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 3rem;
+}
+.popular-button a {
+    text-decoration: none;
+}
+.popular-button-text {
+    color: rgba(224, 44, 109, 0.87);
+    font-size: 16px;
+    font-weight: 700;
+}
 
 
 
@@ -175,6 +188,7 @@
         width: 40vw;
         margin-bottom: 3rem;
     }
+
     .popular-card-container {
         grid-template-columns: 1fr;
 
@@ -202,9 +216,11 @@
     .banner-container {
         text-align: center;
     }
+
     .banner-text p {
         margin-left: 8rem;
     }
+
     .banner-text h1 {
         margin-bottom: 5rem;
         margin-top: 3rem;
@@ -229,10 +245,12 @@
         width: 40vw;
         margin-bottom: 3rem;
     }
+
     .popular-card-container {
         grid-template-columns: 2fr;
     }
-    .popular-card{
+
+    .popular-card {
         text-align: center;
     }
 
