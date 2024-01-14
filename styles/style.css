@@ -93,7 +93,7 @@
     background-image: url('../images/Circle\ design.svg');
     background-repeat: no-repeat;
     background-position: center;
-    border-radius:29.6rem;
+    border-radius: 50%;
     border: 3px solid #F1E4FF;
 }
 
@@ -177,6 +177,63 @@
     }
     .popular-card-container {
         grid-template-columns: 1fr;
+
+    }
+
+}
+
+
+
+@media screen and (min-width: 577px) and (max-width:992px) {
+
+    .container {
+        margin-top: 2rem;
+    }
+
+    .nav-container,
+    .banner-container {
+        flex-direction: column;
+    }
+
+    .nav-container .nav-title {
+        margin-bottom: 2rem;
+    }
+
+    .banner-container {
+        text-align: center;
+    }
+    .banner-text p {
+        margin-left: 8rem;
+    }
+    .banner-text h1 {
+        margin-bottom: 5rem;
+        margin-top: 3rem;
+    }
+
+    .banner-image {
+        border-radius: 0;
+    }
+
+    .nav-main ul {
+        margin: 0;
+
+    }
+
+    .image-container {
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+    .image-container img {
+        width: 40vw;
+        margin-bottom: 3rem;
+    }
+    .popular-card-container {
+        grid-template-columns: 2fr;
+    }
+    .popular-card{
+        text-align: center;
     }
 
 }
