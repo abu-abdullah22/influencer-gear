@@ -93,7 +93,7 @@
     background-image: url('../images/Circle\ design.svg');
     background-repeat: no-repeat;
     background-position: center;
-    border-radius: 475px;
+    border-radius:29.6rem;
     border: 3px solid #F1E4FF;
 }
 
@@ -167,8 +167,6 @@
 
     .image-container {
         flex-direction: column;
-        /* justify-content: center;
-        align-items: center; */
         text-align: center;
 
     }
@@ -177,6 +175,8 @@
         width: 40vw;
         margin-bottom: 3rem;
     }
-
+    .popular-card-container {
+        grid-template-columns: 1fr;
+    }
 
 }
