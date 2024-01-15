@@ -112,9 +112,9 @@
     box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15)
 }
 
-.popular-card * {
+/* .popular-card * {
     margin-bottom: 0.4rem;
-}
+} */
 
 .popular-card-title {
     text-align: center;
@@ -147,6 +147,10 @@
     color: rgba(224, 44, 109, 0.87);
     font-size: 16px;
     font-weight: 700;
+}
+.pp-rating {
+    display: flex;
+    gap: 1rem;
 }
 
 /* one place section styles */
